@@ -1,0 +1,98 @@
+🧾 Informe Final — Análisis de Desempeño de Tiendas
+Introducción
+
+El presente informe tiene como propósito determinar a qué tienda debería vender el Sr. Juan, basándose en un análisis detallado del rendimiento de las distintas sucursales.
+Para ello, se recopilaron y examinaron datos relacionados con las ventas, categorías de productos, calificaciones de los clientes y costos de envío.
+
+A través de herramientas de análisis de datos (Python, Pandas y Matplotlib), se identificaron tendencias clave en la rentabilidad, satisfacción del cliente y eficiencia operativa de cada tienda.
+El objetivo es brindar una recomendación fundamentada en datos que maximice el beneficio económico y la reputación comercial del Sr. Juan.
+
+Desarrollo del análisis
+💰 1. Ingresos totales por tienda
+
+El análisis de ingresos mostró lo siguiente:
+
+Tienda (Ciudad)	Ingreso total (MXN)
+Cali	757.500,00
+Medellín	527.500,00
+Cartagena	209.600,00
+Bogotá	164.300,00
+
+Cali registró el ingreso más alto, impulsado por la venta de productos de alto valor, mientras que Bogotá tuvo el menor ingreso.
+Sin embargo, los ingresos deben analizarse junto con la satisfacción del cliente y los costos logísticos.
+
+🏷️ 2. Categorías de productos más vendidas
+
+El gráfico de distribución de ventas por categoría reveló que:
+
+En Medellín, la categoría dominante fueron los Muebles.
+
+En Cali, destacaron los Electrodomésticos.
+
+En Bogotá, los Electrónicos.
+
+En Cartagena, los Juguetes.
+
+Esto muestra que Medellín presenta una mayor diversificación en las ventas, mientras que Cali depende de una sola categoría de productos de alto valor.
+
+🌟 3. Calificaciones promedio de los clientes
+
+La satisfacción del cliente fue medida a través de las calificaciones:
+
+Tienda	Calificación promedio
+Medellín	⭐ 4.5
+Bogotá	⭐ 4.0
+Cali	⭐ 1.0
+Cartagena	⭐ 1.0
+
+Las tiendas Cali y Cartagena presentan niveles de satisfacción muy bajos, lo que podría reflejar problemas de atención, calidad o tiempos de entrega.
+En contraste, Medellín se posiciona como la tienda con mejor reputación y clientes más satisfechos.
+
+📦 4. Productos más y menos vendidos
+
+Los productos más vendidos en cada tienda fueron:
+
+Medellín: Silla de oficina (5 unidades)
+
+Cali: Microondas (4 unidades)
+
+Bogotá: Asistente virtual (4 unidades)
+
+Cartagena: Juego de mesa (1 unidad)
+
+Los productos menos vendidos fueron principalmente los de menor rotación, como la Mesa de comedor en Medellín.
+Esto confirma que Medellín mantiene un flujo de ventas equilibrado con productos de alta demanda y buena rotación.
+
+🚚 5. Costo de envío promedio
+
+El análisis del costo de envío mostró las siguientes cifras promedio:
+
+Tienda	Costo de envío promedio (MXN)
+Bogotá	6.900,00
+Medellín	14.300,00
+Cartagena	15.900,00
+Cali	41.000,00
+
+Cali tiene el costo de envío más alto, lo que puede contribuir a la baja satisfacción del cliente.
+Bogotá y Medellín presentan costos logísticos más competitivos, favoreciendo una mejor experiencia de compra.
+
+Conclusión y recomendación
+
+Tras evaluar los ingresos, categorías más vendidas, calificaciones de los clientes, productos destacados y costos logísticos, se concluye que la mejor tienda para que el Sr. Juan venda sus productos es la tienda de Medellín.
+
+Justificación:
+
+Excelente satisfacción del cliente (promedio de 4.5 estrellas).
+
+Ingresos altos y estables, siendo la segunda más rentable.
+
+Ventas diversificadas, especialmente en productos de alta demanda como muebles.
+
+Costos de envío moderados, lo que favorece la experiencia de compra.
+
+Aunque Cali genera más ingresos, su baja satisfacción (1 estrella) y altos costos de envío la hacen menos atractiva a largo plazo.
+Por tanto, Medellín representa la mejor combinación de rentabilidad, reputación y eficiencia operativa.
+
+Recomendación final
+
+🔹 Se recomienda que el Sr. Juan establezca sus ventas en la tienda de Medellín, ya que ofrece el entorno más equilibrado para el crecimiento de su negocio, con clientes satisfechos, costos controlados y un buen nivel de ingresos sostenibles.
